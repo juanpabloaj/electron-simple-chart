@@ -2,6 +2,8 @@
 
 Electron chart app, with angularjs and highcharts.
 
+![img](http://cl.ly/bysy/Menubar_y_Electron.png)
+
 ### Pre package
 
     npm install electron-prebuilt -g
@@ -9,6 +11,6 @@ Electron chart app, with angularjs and highcharts.
     bower install
 
 
-### package application
+### Package application
 
     make
