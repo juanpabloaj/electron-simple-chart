@@ -1,0 +1,20 @@
+{
+  "name": "electron-simple-chart",
+  "version": "0.1.0",
+  "authors": [
+    "JuanPablo <jpabloaj@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "highcharts": "~4.1.7",
+    "jquery": "~1.8.2"
+  }
+}

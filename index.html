@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html ng-app='app'>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <script src="./bower_components/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./bower_components/highcharts/highcharts.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./bower_components/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./js/app.js" type="text/javascript" charset="utf-8"></script>
+
+        <title></title>
+
+    </head>
+    <body>
+        <div ng-controller="SimpleCtrl">
+
+            <div class="simple-column" items="values"></div>
+            <h3>The values</h3>
+            <input ng-repeat="value in values" ng-model="value.y" type="number" required/>
+        </div>
+    </body>
+</html>

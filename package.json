@@ -1,0 +1,8 @@
+{
+  "name": "electron-simple-chart",
+  "version": "0.1.0",
+  "description": "A simple chart in electron",
+  "main": "main.js",
+  "author": "JuanPabloAJ",
+  "license": "MIT"
+}
